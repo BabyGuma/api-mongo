@@ -11,7 +11,7 @@ app.use(cors());
 mongoose.connect('mongodb+srv://guma:12345@cludd.1p2lgqb.mongodb.net/',{
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  dbName: 'python' // Reemplaza con el nombre real de tu base de datos
+  dbName: 'memes' // Reemplaza con el nombre real de tu base de datos
 });
 
 // Middleware para analizar datos JSON en las solicitudes
