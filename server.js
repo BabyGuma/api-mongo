@@ -8,7 +8,7 @@ const port = 8080;
 app.use(cors());
 
 // Conexión a la base de datos MongoDB Atlas
-mongoose.connect('mongodb+srv://guma:12345@cludd.1p2lgqb.mongodb.net/',{
+mongoose.connect('mongodb+srv://guma:12345@cludd.1p2lgqb.mongodb.net/?retryWrites=true&w=majority',{
   useNewUrlParser: true,
   useUnifiedTopology: true,
   dbName: 'python' // Reemplaza con el nombre real de tu base de datos
